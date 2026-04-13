@@ -1,10 +1,11 @@
+import Image from "next/image";
 import Link from "next/link";
 import { IoHomeOutline } from "react-icons/io5";
 import { RiTimeLine } from "react-icons/ri";
 import { TfiStatsUp } from "react-icons/tfi";
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm px-0 md:px-8 lg:px-16">
+    <div className="navbar bg-base-100 shadow-sm px-5 md:px-8 lg:px-16">
       <div className="navbar-start flex w-full justify-between items-center">
         <div className="dropdown lg:hidden">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -18,7 +19,7 @@ const Navbar = () => {
           <li><Link href="/stats" className="text-lg"><TfiStatsUp /> Stats</Link></li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">NextJS Image</a>
+        <Image width="150" height="50" src="/logo.png" alt="logo"></Image>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
