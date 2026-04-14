@@ -13,10 +13,10 @@ export default function Home() {
 
       <h1 className='text-2xl font-bold my-6 text-center'>Your Friends</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
       {
         contacts.map(contact => (
-            <div key={contact.id} className="card bg-base-100 w-72 shadow-sm">
+            <div key={contact.id} className="card bg-base-100 w-72 lg:w-56 shadow-sm">
               <figure>
                   <Image width={80} height={80} src={contact.picture} alt={contact.name} className="rounded-full mt-4">
                   </Image>
@@ -26,7 +26,7 @@ export default function Home() {
                 <h2 className="card-title">{contact.name}</h2>
                 <p>{contact.days_since_contact} days ago</p>
 
-                <div className="flex gap-2 flex-wrap justify-center my-3">
+                <div className="flex gap-2 justify-center my-3">
                 {
                   contact.tags.map((tag, index) =>(
                         <span key={index} className="badge bg-green-200 rounded-xl">{tag}</span>  

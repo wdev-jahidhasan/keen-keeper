@@ -6,7 +6,7 @@
     "email": "aisha.rahman@gmail.com",
     "days_since_contact": 18,
     "status": "overdue",
-    "tags": ["university", "close friend"],
+    "tags": ["university"],
     "bio": "Met during undergraduate studies in Dhaka. We used to study together before exams.",
     "goal": 14,
     "next_due_date": "2026-04-10"
@@ -54,7 +54,7 @@
     "email": "sadia.karim@gmail.com",
     "days_since_contact": 9,
     "status": "on-track",
-    "tags": ["gym", "workout partner"],
+    "tags": ["book club"],
     "bio": "Met at the local gym. We motivate each other to stay consistent with workouts.",
     "goal": 15,
     "next_due_date": "2026-04-22"
@@ -78,7 +78,7 @@
     "email": "farzana.akter@yahoo.com",
     "days_since_contact": 2,
     "status": "on-track",
-    "tags": ["neighbor", "family friend"],
+    "tags": ["neighbor"],
     "bio": "Neighbor who often invites us for dinner. Very warm and welcoming.",
     "goal": 7,
     "next_due_date": "2026-04-19"
@@ -126,7 +126,7 @@
     "email": "sabbir.hossain@gmail.com",
     "days_since_contact": 16,
     "status": "overdue",
-    "tags": ["college", "project partner"],
+    "tags": ["college"],
     "bio": "Worked together on several college assignments. Very reliable and detail-oriented.",
     "goal": 14,
     "next_due_date": "2026-04-12"
