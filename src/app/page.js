@@ -2,21 +2,23 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import contacts from "../../data/contacts.json"
 import Count from "@/components/Count";
+import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto py-5">
 
+      <Banner></Banner>
       <Count></Count>
 
-      <h1 className='text-2xl font-bold my-6'>Your Friends</h1>
+      <h1 className='text-2xl font-bold my-6 text-center'>Your Friends</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
       {
         contacts.map(contact => (
-            <div key={contact.id} className="card bg-base-100 w-60 shadow-sm">
+            <div key={contact.id} className="card bg-base-100 w-72 shadow-sm">
               <figure>
-                  <Image width={80} height={80} src={contact.picture} alt={contact.name} className="rounded-full">
+                  <Image width={80} height={80} src={contact.picture} alt={contact.name} className="rounded-full mt-4">
                   </Image>
 
               </figure>
