@@ -1,10 +1,48 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import contacts from "../../data/contacts.json"
 
 export default function Home() {
   return (
-    <div className='text-center text-5xl text-green-400'>
-      <h1>The Real Homepage</h1>
+    <div className="max-w-7xl mx-auto">
+      <h1 className='text-center text-5xl text-green-400'>The Real Homepage</h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      {
+        contacts.map(contact => (
+            <div key={contact.id} className="card bg-base-100 w-60 mx-auto my-4 shadow-sm">
+              <figure>
+                <img
+                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                  alt="Shoes" />
+              </figure>
+              <div className="card-body items-center text-center">
+                <h2 className="card-title">{contact.name}</h2>
+                <p>{contact.days_since_contact} days ago</p>
+
+                <div className="flex gap-2 flex-wrap justify-center my-3">
+                {
+                  contact.tags.map((tag, index) =>(
+                        <span key={index} className="badge bg-green-200 rounded-xl">{tag}</span>  
+                  ))}
+                  </div>
+                
+              <span 
+              className={`
+                ${contact.status === "overdue" ? "badge bg-red-500 text-white rounded-xl" : ""}
+                ${contact.status === "almost due" ? "badge bg-yellow-500 text-white rounded-xl" : ""}
+                ${contact.status === "on-track" ? "badge bg-green-700 text-white rounded-xl" : ""}
+              `}>
+                {contact.status}
+                </span>
+                
+              
+              </div>
+            </div>
+        )
+        )
+      }
+          </div>
     </div>
   );
 }
