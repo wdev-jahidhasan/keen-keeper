@@ -5,16 +5,16 @@ import contacts from "../../data/contacts.json"
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto">
-      <h1 className='text-center text-5xl text-green-400'>The Real Homepage</h1>
+      <h1 className='text-2xl font-bold my-6'>Your Friends</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
       {
         contacts.map(contact => (
-            <div key={contact.id} className="card bg-base-100 w-60 mx-auto my-4 shadow-sm">
+            <div key={contact.id} className="card bg-base-100 w-60 shadow-sm">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes" />
+                  <Image width={80} height={80} src={contact.picture} alt={contact.name} className="rounded-full">
+                  </Image>
+
               </figure>
               <div className="card-body items-center text-center">
                 <h2 className="card-title">{contact.name}</h2>

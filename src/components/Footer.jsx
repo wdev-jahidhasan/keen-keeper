@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-horizontal footer-center bg-[#244D3F]  p-10 text-white">
 
-      <Image width="250" height="50" src="/logo-xl.png" alt="footer logo"></Image>
+      <Image width={250} height={50} src="/logo-xl.png" alt="footer logo"></Image>
       <p className='text-[#e9e9e990]'>Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.</p>
 
       <aside>
@@ -21,7 +21,7 @@ const Footer = () => {
       </aside>
 
       <div className='border-t border-dotted border-gray-400 w-[90%] lg:w-[75%] pt-10 flex flex-col md:flex-row justify-between text-[#e9e9e990]'>
-        <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+        <p>Copyright © 2026 - All right reserved</p>
         <div className='flex gap-6'>
             <p>Privacy Policy</p>
             <p>Terms of Service</p>

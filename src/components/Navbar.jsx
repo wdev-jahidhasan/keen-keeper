@@ -19,7 +19,7 @@ const Navbar = () => {
           <li><Link href="/stats" className="text-lg"><TfiStatsUp /> Stats</Link></li>
           </ul>
         </div>
-        <Image width="150" height="50" src="/logo.png" alt="logo"></Image>
+        <Image width={150} height={50} src="/logo.png" alt="logo"></Image>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
