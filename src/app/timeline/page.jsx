@@ -5,8 +5,9 @@ export const metadata = {
 
 const TimelinePage = () => {
   return (
-    <div className='text-center text-5xl text-blue-400'>
-      Timeline Page
+    <div className='text-center text-5xl text-blue-400 bg-blue-300'>
+      <h1>Timeline Page</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum aliquam dolorum asperiores quibusdam nemo nulla ipsa iusto omnis cum illo repellat ratione officiis minus dolores non fugiat odio esse ipsam deserunt, eum corrupti. Ullam ipsa illo sed iste molestiae magnam eos repudiandae ea, </p>
     </div>
   );
 };

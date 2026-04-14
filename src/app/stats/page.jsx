@@ -5,8 +5,9 @@ export const metadata = {
 
 const StatsPage = () => {
   return (
-    <div className='text-center text-5xl text-yellow-400'>
-      Stats Page
+    <div className='text-center text-5xl text-cyan-400 bg-cyan-200'>
+      <h1>Stats Page</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusantium, vel fugit iste aperiam veniam nisi atque quidem tempora deleniti</p>
     </div>
   );
 };
