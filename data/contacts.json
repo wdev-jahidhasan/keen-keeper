@@ -7,7 +7,7 @@
     "days_since_contact": 18,
     "status": "overdue",
     "tags": ["university"],
-    "bio": "Met during undergraduate studies in Dhaka. We used to study together before exams.",
+    "bio": "Met during undergraduate studies in Dhaka",
     "goal": 14,
     "next_due_date": "2026-04-10"
   },
@@ -19,7 +19,7 @@
     "days_since_contact": 12,
     "status": "almost due",
     "tags": ["office", "teammate"],
-    "bio": "Worked together on a fintech project. Great at problem-solving under pressure.",
+    "bio": "Worked together on a fintech project",
     "goal": 14,
     "next_due_date": "2026-04-16"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["family", "cousin"],
-    "bio": "Cousin who recently moved to Chattogram. We catch up frequently over video calls.",
+    "bio": "Cousin who recently moved to Chattogram",
     "goal": 10,
     "next_due_date": "2026-04-20"
   },
@@ -43,7 +43,7 @@
     "days_since_contact": 25,
     "status": "overdue",
     "tags": ["school", "old friend"],
-    "bio": "School friend from Narayanganj. We used to play cricket every weekend.",
+    "bio": "School friend from Narayanganj",
     "goal": 20,
     "next_due_date": "2026-04-05"
   },
@@ -55,7 +55,7 @@
     "days_since_contact": 9,
     "status": "on-track",
     "tags": ["book club"],
-    "bio": "Met through a local book club. We enjoy discussing contemporary fiction.",
+    "bio": "Met through a local book club",
     "goal": 15,
     "next_due_date": "2026-04-22"
   },
@@ -67,7 +67,7 @@
     "days_since_contact": 13,
     "status": "almost due",
     "tags": ["startup", "mentor"],
-    "bio": "Mentor from a startup incubator program. Provides valuable business advice.",
+    "bio": "Mentor from a startup incubator program",
     "goal": 14,
     "next_due_date": "2026-04-15"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 2,
     "status": "on-track",
     "tags": ["neighbor"],
-    "bio": "Neighbor who often invites us for dinner. Very warm and welcoming.",
+    "bio": "Neighbor who often invites us for dinner",
     "goal": 7,
     "next_due_date": "2026-04-19"
   },
@@ -91,7 +91,7 @@
     "days_since_contact": 30,
     "status": "overdue",
     "tags": ["client", "freelance"],
-    "bio": "Client from a web development project. We collaborated on an e-commerce platform.",
+    "bio": "Client from a web development project",
     "goal": 21,
     "next_due_date": "2026-04-01"
   },
@@ -103,7 +103,7 @@
     "days_since_contact": 11,
     "status": "almost due",
     "tags": ["travel", "friend"],
-    "bio": "Travel buddy from a trip to Sylhet. Always up for spontaneous adventures.",
+    "bio": "Travel buddy from a trip to Sylhet",
     "goal": 14,
     "next_due_date": "2026-04-17"
   },
@@ -115,7 +115,7 @@
     "days_since_contact": 6,
     "status": "on-track",
     "tags": ["book club", "friend"],
-    "bio": "Met through a local book club. We enjoy discussing contemporary fiction.",
+    "bio": "Met through a local book club.",
     "goal": 12,
     "next_due_date": "2026-04-21"
   },
@@ -127,7 +127,7 @@
     "days_since_contact": 16,
     "status": "overdue",
     "tags": ["college"],
-    "bio": "Worked together on several college assignments. Very reliable and detail-oriented.",
+    "bio": "Worked together on several college assignments",
     "goal": 14,
     "next_due_date": "2026-04-12"
   },
@@ -139,7 +139,7 @@
     "days_since_contact": 8,
     "status": "on-track",
     "tags": ["workshop", "designer"],
-    "bio": "Met at a UX design workshop. She shares helpful resources and feedback on design work.",
+    "bio": "Met at a UX design workshop.",
     "goal": 12,
     "next_due_date": "2026-04-24"
   }

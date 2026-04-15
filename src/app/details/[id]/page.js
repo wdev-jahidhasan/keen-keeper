@@ -18,20 +18,20 @@ export default async function DetailsPage({ params }) {
 
   return (
     <div className="bg-[#F8FAFC]">
-      <div className="w-full md:w-[90%] mx-auto py-10 px-2 grid grid-cols-1 lg:grid-cols-[40%_60%] gap-10">
+      <div className="w-full md:w-[90%] lg:w-[70%] mx-auto py-10 px-2 grid grid-cols-1 lg:grid-cols-[30%_70%] gap-10">
 
         {/* left side */}
         <div>
           <div className="shadow-sm py-3 px-2 text-center bg-white rounded-lg">
             <Image
               src={contact.picture}
-              width={120}
-              height={120}
+              width={80}
+              height={80}
               alt={contact.name}
               className="rounded-full mx-auto"
             />
 
-            <h1 className="text-3xl font-bold mt-2">{contact.name}</h1>
+            <h1 className="text-xl font-bold mt-2">{contact.name}</h1>
 
             <span
               className={`my-3
@@ -86,7 +86,7 @@ export default async function DetailsPage({ params }) {
           </div>
 
           {/* mid */}
-          <div className="flex justify-between bg-white shadow-sm my-5 py-4 px-5 rounded-lg">
+          <div className="flex justify-between bg-white shadow-sm my-7 py-4 px-5 rounded-lg">
             <div>
               <h3 className="text-green-800 font-semibold text-lg ">Relationship Goal</h3>
               <p className="my-2"><span className="text-gray-500">Contact every</span> <span className="font-semibold">30 Days</span></p>
