@@ -80,8 +80,8 @@ export default async function DetailsPage({ params }) {
               <h1 className='text-lg text-gray-500'>Goal (Days)</h1>
             </div>
             <div className='text-center shadow-sm py-5 bg-white rounded-lg'>
-              <h3 className='text-xl font-semibold text-green-800'>Dynamic Date </h3>
-              <h1 className='text-lg text-gray-500'>Next Due</h1>
+              <h3 className='text-xl font-semibold text-green-800'>{contact.next_due_date}</h3>
+              <h1 className='text-lg text-gray-500'>Next Due Date</h1>
             </div>
           </div>
 
