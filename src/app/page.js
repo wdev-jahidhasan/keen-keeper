@@ -6,7 +6,8 @@ import Banner from "@/components/Banner";
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto py-5">
+    <div className="bg-[#F8FAFC]">
+    <div className="max-w-7xl mx-auto py-5 mb-20">
 
       <Banner></Banner>
       <Count></Count>
@@ -17,7 +18,7 @@ export default function Home() {
         {
           contacts.map(contact => (
             <Link key={contact.id} href={`/details/${contact.id}`}>
-              <div className="card bg-base-100 w-72 lg:w-56 shadow-sm">
+              <div className="card bg-base-100 w-72 md:w-84 lg:w-56 shadow-sm">
                 <figure>
                   <Image width={80} height={80} src={contact.picture} alt={contact.name} className="rounded-full mt-4">
                   </Image>
@@ -46,6 +47,7 @@ export default function Home() {
           ))
         }
       </div>
+    </div>
     </div>
   );
 }
