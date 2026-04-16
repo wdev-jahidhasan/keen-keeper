@@ -1,13 +1,15 @@
 <h1>📁 KeenKeeper — Personal Interaction & Activity Tracker</h1>
 
+<hr/>
 <img width="1032" height="804" alt="Screenshot 2026-04-16 233829" src="https://github.com/user-attachments/assets/791d8896-7206-4085-b6a0-ca1a6f29039c" />
+<hr/>
 
 <p>
 KeenKeeper is a modern web application that helps you track and manage your interactions with friends and family. Whether it's a phone call, text message, or video chat, it keeps your social connections organized and easy to monitor.
 </p>
-
+<hr/>
 <img width="1292" height="714" alt="Screenshot 2026-04-16 233846" src="https://github.com/user-attachments/assets/42308f5e-a0ae-4eb9-b526-1318f476041f" />
-
+<hr/>
 
 <h2>🚀 Key Features</h2>
 
@@ -21,8 +23,9 @@ KeenKeeper is a modern web application that helps you track and manage your inte
   <li>Real-time user feedback using React Toastify notifications</li>
 </ul>
 
+<hr/>
 <img width="1860" height="668" alt="Screenshot 2026-04-16 233907" src="https://github.com/user-attachments/assets/524f8028-164c-4e5f-83ae-b9c1c15930c7" />
-
+<hr/>
 
 <h2>🛠️ Tech Stack</h2>
 
