@@ -8,13 +8,13 @@ export default function NotFound() {
   return (
     <div className="min-h-[50vh] flex items-center justify-center bg-base-100 px-4">
       
-      <div className="text-center max-w-7xl w-full p-6 rounded-2xl bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10">
-        <h1 className="text-6xl font-extrabold bg-gradient-to-r from-primary via-secondary to-accent text-transparent bg-clip-text leading-none">404</h1>
+      <div className="text-center max-w-7xl w-full p-6 rounded-2xl bg-gradient-to-br from-primary/10  to-accent/10">
+        <h1 className="text-6xl font-extrabold text-red-500">404</h1>
         <h2 className="mt-2 text-xl font-semibold">
           Page Not Found
         </h2>
         <p className="mt-2 text-sm opacity-70">
-          The page you’re looking for doesn’t exist or may have been moved.
+          Please select a right path
         </p>
       </div>
     </div>
