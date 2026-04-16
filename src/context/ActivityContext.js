@@ -4,12 +4,16 @@ const ActivityContext = createContext();
 export const ActivityProvider = ({ children }) => {
   const [logs, setLogs] = useState([]);
 
-const addLog = (contactName, activityType) => {
+  const addLog = (contactName, activityType) => {
     const newLog = {
       id: Date.now(),
       name: contactName,
       type: activityType,
-      time: new Date().toLocaleString(),
+      time: new Date().toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      }),
     };
     setLogs((prevLogs) => [newLog, ...prevLogs]);
   };
