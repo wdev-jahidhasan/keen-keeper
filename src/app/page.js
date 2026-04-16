@@ -4,7 +4,9 @@ import Count from "@/components/Count";
 import Banner from "@/components/Banner";
 
 const loadContacts = async function () {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/contacts.json`);
+  const res = await fetch("http://localhost:3000/contacts.json", {
+    cache: 'no-store'
+  });
   const data = await res.json();
   return data;
 }

@@ -2,7 +2,7 @@ import DetailsClient from "@/components/DetailsClient";
 
 export default async function DetailsPage({ params }) {
   const { id } = await params;
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/contacts.json`, {
+  const res = await fetch("http://localhost:3000/contacts.json", {
     cache: 'no-store'
   });
   const contacts = await res.json();
